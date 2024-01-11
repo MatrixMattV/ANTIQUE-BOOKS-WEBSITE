@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("pexels-matteo-milan-19537201.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    color: ghostwhite;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: ghostwhite;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: burlywood;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    color: ghostwhite;
+    margin: 0 auto;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-content button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: lightyellow;
+    font-weight: 600;
+    color: brown;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    background: brown;
+    color: lightyellow;
+}
